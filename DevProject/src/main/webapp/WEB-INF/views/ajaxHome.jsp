@@ -9,6 +9,14 @@
 <script type="text/javascript">
 $(document).ready(function(){
 	
+	$("#listBtn").on("click", function(){
+		$.get("/boards",function(data){
+			console.log(data);
+			
+			alert(JSON.stringify(data));
+		});
+		
+	});
 });
 
 </script>
@@ -30,7 +38,6 @@ $(document).ready(function(){
 	<button id="registerBtn">REGISTER</button>
 	<button id="deleteBtn">DELETE</button>
 	<button id="modifyBtn">MODIFY</button>
-		
 </div>
 
 </body>
