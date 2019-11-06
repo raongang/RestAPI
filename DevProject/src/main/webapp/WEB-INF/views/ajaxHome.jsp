@@ -3,8 +3,15 @@
 <!DOCTYPE html> <!-- html5 declare -->
 <html lang="ko">
 <head>
+<%--<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>--%> 
+<script src="/resources/js/jquery-2.1.4.min.js"></script>
 
-<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script> 
+<script type="text/javascript">
+$(document).ready(function(){
+	
+});
+
+</script>
 
 <title>Insert title here</title>
 </head>
@@ -23,8 +30,6 @@
 	<button id="registerBtn">REGISTER</button>
 	<button id="deleteBtn">DELETE</button>
 	<button id="modifyBtn">MODIFY</button>
-	
-		
 		
 </div>
 
