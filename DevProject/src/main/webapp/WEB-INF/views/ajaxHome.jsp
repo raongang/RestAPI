@@ -15,7 +15,6 @@ $(document).ready(function(){
 			
 			alert(JSON.stringify(data));
 		});
-		
 	});
 });
 
